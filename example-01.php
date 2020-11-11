@@ -1,4 +1,7 @@
 <?php
+/*ID: 612110237
+Name: Guineng Cai 
+*/
     $fp = fopen($_SERVER['argv'][1], 'r');
 
     fscanf($fp, "%d", $n);
@@ -26,14 +29,10 @@
 
     // <=> operator
     // usort($names, function($pre, $next) {
-    //     $preFirst = strtolower($pre['first']);
-    //     $nextFist = strtolower($next['first']);
-    //     $result = $preFirst <=> $nextFirst;
+    //     $result = strtolower($pre['first']) <=> strtolower($next['first']);
     //     if($result !== 0) return $result;
 
-    //     $preLast = strtolower($pre['last']);
-    //     $nextLast = strtolower($next['last']);
-    //     return $preLast <=> $nextLast;
+    //     return strtolower($pre['last']) <=> strtolower($next['last']);
     // });
 
     // strcasecmp() function
